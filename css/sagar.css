@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:url('../images/wp2408917.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.logo img{
+    height: auto;
+    width: 200px;
+    margin-top: -50px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-left:40px;
+    margin-top: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text{
+    margin-top:10px;
+}
+
+.text input[type=text]{
+font-size: 90x;
+height: 20px;
+width: 170px;
+background:transparent;
+color: aliceblue;
+}
+
+.text input[type=Submit]{
+font-size: 90x;
+height: 25px;
+width: 90px;
+color:black;
+background-color: orangered;
+}
+
+.text input[type=Submit]:hover{
+    background: blue;
+    color: white;
+}
+
+ul li a:hover{
+    color:orangered;
+}
+
+.middle{
+    margin-top: -90px;
+}
+.box{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+.phone{
+margin-left: 40px;
+font-size: 60px;
+color:rgb(178, 122, 1);
+}
+
+.mouse{
+    margin-left: 40px;
+    font-size: 60px;
+    color:white;
+}
+
+.adarsh{
+    margin-left:40px;
+    flex-direction:column;
+    color:white;
+    font-family:Georgia;
+}
+
+.prachi input[type=Submit]{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 140px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color:rgb(178, 122, 1);
+}
+
+.prachi input[type=Submit]:hover{
+    background-color: blue;
+    color:white;
+}
+
+.footer{
+    width:300px;
+    height: 380px;
+    background:black;
+    position:absolute;
+    top:150px;
+    left: 950px;
+    border-radius: 10px;
+}
+.footer:hover{
+    background-color: rgb(231, 157, 20);
+}
+
+
+
+.puja{
+    font-size: 35px;
+    border:transparent;
+    border-radius: 10px;
+    background-color: white;
+    color: oranges;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    height: auto;
+    width: 80px;
+    margin-left:95px;
+}
+
+.change{
+    color: white;
+    font-size:19px;
+    margin-top: 8px;
+    margin-left: 37px;
+}
+
+.cup{
+    margin-left:90px;
+}
+
+.cup a{
+    color: white;
+    border:transparent;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color:rgb(225, 158, 14);
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+
+.cup a:hover{
+    background-color: blue;
+    color: black;
+}
+
+.batter{
+    color:white;
+    margin-left: 65px;
+    margin-top: 5px;
+    flex-direction:column;
+    font-size:15px;
+}
+
+.batter p{
+    color: blue;
+    margin-bottom: -15px;
+    margin-left: 25px;
+} 
+
+.change input[type=text]{
+    font-size: 20px;
+    height:24px;
+    width:220px;
+}
+
+.change input[type=Password]{
+    font-size:20px;
+    height:24px;
+    width:220px;
+}
